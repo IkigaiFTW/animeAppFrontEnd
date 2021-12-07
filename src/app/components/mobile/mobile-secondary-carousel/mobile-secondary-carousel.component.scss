@@ -1,0 +1,22 @@
+.carousel{
+    display: flex;
+    width: 100%;
+}
+img{
+    width: 28%;
+    padding: 1vw;
+    border-radius: 12px;
+}
+.sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vw;
+    width: 8%;
+    background: #ED95A5;
+    border-radius: 6px;
+}
+p{
+    white-space: nowrap;
+    transform: rotate(-90deg);
+}

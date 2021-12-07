@@ -1,0 +1,28 @@
+<div class="carousel">
+      <div class="sub">
+        <p>
+          Top Anime
+        </p>          
+      </div>
+      <ng-container *ngFor="let slide of slides; let i = index">
+        <img
+          *ngIf="i === currentSlide"
+          [src]="slide.src"
+          class="slide"
+        />
+      </ng-container>
+      <ng-container *ngFor="let slide of slides; let i = index">
+        <img
+          *ngIf="i === currentSlide+1"
+          [src]="slide.src"
+          class="slide"
+        />
+      </ng-container>
+      <ng-container *ngFor="let slide of slides; let i = index">
+        <img
+          *ngIf="i === currentSlide+2"
+          [src]="slide.src"
+          class="slide"
+        />
+      </ng-container>
+</div>
