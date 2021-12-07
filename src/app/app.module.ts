@@ -10,6 +10,8 @@ import { RegisterComponent } from './register/register.component';
 import { HomeComponent } from './home/home.component';
 import { MobileNavbarComponent } from './home/mobile/mobile-navbar/mobile-navbar.component';
 import { UserLogoComponent } from './components/user-logo/user-logo.component';
+import { MobileMainCarouselComponent } from './components/mobile/mobile-main-carousel/mobile-main-carousel.component';
+import { MobileSecondaryCarouselComponent } from './components/mobile/mobile-secondary-carousel/mobile-secondary-carousel.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { UserLogoComponent } from './components/user-logo/user-logo.component';
     HomeComponent,
     MobileNavbarComponent,
     UserLogoComponent,
+    MobileMainCarouselComponent,
+    MobileSecondaryCarouselComponent,
   ],
   imports: [
     BrowserModule,
